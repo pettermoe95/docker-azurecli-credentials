@@ -1,0 +1,11 @@
+[Unit]
+Description=Entra ID Access Token API
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/Users/petmoe/git/github/local-az-access-token/target/release/local-az-access-token
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
