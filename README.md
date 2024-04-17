@@ -1,7 +1,7 @@
 # Introduction
 This is a simple api that fetches an access token through the az logged in user. You can use this to get an access token for your applications that run inside Docker containers,
 using host.docker.internal:6436. No need to use service principals and username/password for local Docker development anymore. This saves space as you don't need to install azure cli
-on your local docker container, and image size will me smaller.
+on your local docker container, and image size will be smaller.
 # Installation
 Make sure to have cargo installed to compile the rust application. Then compile the application as a release:
 ```cargo build --release```
