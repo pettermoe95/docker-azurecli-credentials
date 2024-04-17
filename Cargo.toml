@@ -1,5 +1,5 @@
 [package]
-name = "local-az-acccess-token"
+name = "docker-azurecli-credentials"
 version = "0.1.0"
 edition = "2021"
 
